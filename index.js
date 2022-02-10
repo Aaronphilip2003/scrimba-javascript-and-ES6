@@ -1,4 +1,5 @@
 let countEl=document.getElementById("count-el")
+let saveEntry=document.getElementById("save-feature")
 
 let count=0;
 
@@ -9,6 +10,8 @@ function increment(){
 }
 
 function save(){
-    console.log(count);
+    saveEntry.innerText+=" "+count+" -";
 }
 save()
+
+

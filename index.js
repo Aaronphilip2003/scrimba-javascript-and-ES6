@@ -11,5 +11,5 @@ function increment(){
 
 function save(){
     saveEntry.textContent+=" "+count+" -";
+    count=0
 }
-save()

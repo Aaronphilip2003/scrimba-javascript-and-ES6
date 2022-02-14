@@ -4,6 +4,9 @@ body{
     background-size: cover;
     color: white;
     font-weight: bold;
+    font-size:x-large;
+    margin-left: 500px;
+    font-stretch: expanded;
 }
 
 
@@ -21,4 +24,7 @@ h1 {
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: bold;border-radius: 2px;
+    border: none;
+    
 }
